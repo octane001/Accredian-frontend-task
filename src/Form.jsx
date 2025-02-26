@@ -10,7 +10,6 @@ const Form = ({ setVisible }) => {
     } = useForm()
 
     const onSubmit = async (data) => {
-        console.log(data);
 
         try {
             const response = await axios.post("https://accredian-backend-task-a580.onrender.com/submit-form", data);

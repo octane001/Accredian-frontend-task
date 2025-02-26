@@ -15,7 +15,6 @@ const Hero = () => {
             transform: 'translate(-50%, -50%)',
         },
     };
-    console.log("Modal state: ", visible);
     Model.setAppElement('#root');
     return (
         <div className="flex justify-center m-30">
